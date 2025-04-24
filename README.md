@@ -28,21 +28,14 @@ To run the project locally, follow these steps:
    cd typescript-todo
 Install dependencies: The project uses Bootstrap for UI and jQuery for DOM manipulation. You can include Bootstrap and jQuery via CDN in the index.html file, or you can install them locally with:
 
-bash
-Kopieren
-Bearbeiten
+
 npm install bootstrap jquery
 Compile TypeScript: Make sure you have TypeScript installed on your system. If not, install it globally:
 
-bash
-Kopieren
-Bearbeiten
+
 npm install -g typescript
 Then, run the TypeScript compiler:
 
-bash
-Kopieren
-Bearbeiten
 tsc
 Open index.html: Open the index.html file in a web browser to see the app in action.
 
@@ -50,8 +43,6 @@ Usage
 Once you have the app running, you can:
 
 Add todos: Type a todo task and click "Add".
-
 Toggle todos: Click on a todo to mark it as completed.
-
 Clear completed: Click the "Clear Completed" button to remove all completed tasks.
 
